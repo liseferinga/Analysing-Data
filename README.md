@@ -11,7 +11,7 @@ Additionally, the assignment analyzes three translations of [Tom Sawyer](https:/
 
 In this assignment, I have investigated whether specific storytelling features can predict the overall story strength score in posts from the [ChangeMyView](https://www.reddit.com/r/changemyview/) dataset. Using the data, simple linear regression was performed to examine the relationship between the __story_score__ (dependent variable) and several narrative features: __agency_score__, __event_score__, __world_score__, __curiosity_score__, __surprise_score__, and __suspense_score__ (independent variables).
 
-The analysis includes visualizing the data with scatterplots, fitting regression lines, calculating R² scores, analyzing residual plots, and testing the normality of residuals using the Shapiro–Wilk test. The results and full explenation of the exercise can be found in the __Assignment2.pdf__. The full code can be found in the attached Jupyter Notebook. 
+The analysis includes visualizing the data with scatterplots, fitting regression lines, calculating R² scores, analyzing residual plots, and testing the normality of residuals using the Shapiro–Wilk test. The results and full explenation of the exercise can be found in the __Assignment2.pdf__. The full code can be found in __Assignment2.ipynb__. 
 
 ## Technologies Used
 - Python
