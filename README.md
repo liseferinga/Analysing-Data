@@ -23,6 +23,18 @@ The analysis includes visualizing the data with scatterplots, fitting regression
 - NLTK
 - spaCy
 
+### Assignment 3
+In this assignment, I investigate two tasks involving __Large Language Models__. First, I have designed a small research proposal exploring whether an LLM’s internal representations of stories are more closely aligned with the book version or the movie adaptation.
+The (refined) research question is stated as follows: 
+
+_By using probing tasks on factual, stylistic, and interpretive elements, to what extent does an LLM’s narrative knowledge align more with the book version or the movie adaptation?_
+
+The proposal defines an outline for the process to find an answer to this research question by describing a probing-based methodology. It also discusses limitations, and considers the use of roles of both annotators as legal support. A small exploratory experiment with prompt-based analysis is included at the end.  
+
+In the second part, I implement a prompting pipeline using the Ollama library to classify song lyrics into genres using the provided dataset (__genreLyrics_train.csv__ and __genreLyrics_test.csv__). Both zero-shot and few-shot prompting strategies are tested and evaluated using Precision, Recall, and F1-score. The results are compared across genres and discussed in terms of performance differences and limitations.
+
+The full code for Part 2 can be found in the Jupyter notebook in the folder for Assignment 3. The dataset is included in the data/ folder and must be kept in the same directory structure for the code to run correctly.
+
 ## Author
 Lise Marit Feringa <br>
 Master's Programme Digital Humanities <br>
